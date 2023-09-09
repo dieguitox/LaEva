@@ -365,9 +365,9 @@ img
 .formulario
 {
     background-color: var(--secundario);
-    width: min(100% , 120rem);
+    width: min(90% , 100rem);
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 .formulario fieldset
@@ -378,7 +378,7 @@ img
 .formulario legend
 {
     text-align:  center;
-    font-size: 1.8 rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight:  700;
     margin-bottom: 2rem;
@@ -421,7 +421,7 @@ img
     color: var(--blanco);
     padding: 1rem 3rem;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
