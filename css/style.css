@@ -76,6 +76,11 @@ img
 {
     text-align: center;
 }
+label
+{
+    color: var(--blanco);
+    font-size: 1.5rem;
+}
 /* Header */
 .header
 {
@@ -92,6 +97,17 @@ img
     text-align: center;
     margin-top: 2rem;
     padding: 2rem;
+}
+
+.footer
+{
+    background-color: var(--secundario);
+    height: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -149,6 +165,12 @@ img
     {
         text-align: center;
     }
+    label
+    {
+        color: var(--blanco);
+        font-size: 3.2rem;
+    }
+
     .barra
     {
         padding: 2rem;
@@ -198,7 +220,12 @@ img
         grid-template-columns: repeat(2,1fr);
         column-gap: 1.5rem;
         margin-top: 2rem;
-    }  
+    }
+    .redes
+    {
+        display: flex;
+        gap: 2rem;
+    }
     
 }
 
@@ -255,7 +282,6 @@ img
     {
         text-align: center;
     }
-
     .barra
     {
         padding: 2rem;
@@ -264,7 +290,7 @@ img
         align-items: center;
        
     }
-    .navegacion
+    .navegacion , .redes
     {
         display: flex;
         gap: 2rem;
@@ -308,7 +334,7 @@ img
     
 }
 
-.navegacion__enlace
+.navegacion__enlace ,.redes
 {
     display: block;
     text-align: center;
@@ -319,13 +345,6 @@ img
 {
     background-color: var(--primario);
     color: var(--secundario);
-}
-
-.footer
-{
-    background-color: var(--secundario);
-    margin-top: 3rem;
-    padding-bottom: 4rem;
 }
 .derechos
 {
