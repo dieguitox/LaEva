@@ -490,7 +490,7 @@ li
 {
     background-image: url(../img/Food.webp);
     height: 70rem;
-    background-position: center center;
+    background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
 }
