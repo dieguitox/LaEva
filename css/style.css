@@ -331,6 +331,10 @@ label
         column-gap: 1.5rem;
         margin-top: 2rem;
     }  
+    .contacto-bg
+    {
+        height: 100%;
+    }
     
 }
 
@@ -385,9 +389,10 @@ label
 {
     background-color: var(--secundario);
     width: min(90% , 100rem);
-    margin: 0 auto;
+    margin: -5rem auto 0 auto;
     padding: 1rem;
     border-radius: 1rem;
+    width: 95%;
 }
 .formulario fieldset
 {
@@ -480,3 +485,13 @@ li
 {
     padding: 1rem;
 }
+
+.contacto-bg
+{
+    background-image: url(../img/Food.jpg);
+    height: 70rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carro La Eva y Foodtruck La Ev@lución</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carro La Eva y Foodtruck La Ev@lución</title>
+        <meta name="description" content="Pagina web de La eva">
     
-</head>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="font" crossorigin="crossorigin">    
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    </head>
 <body>
     <Header class="header"> 
         <a href="index.html">
@@ -29,7 +32,10 @@
         <h2 class="titulo no-margin">Comidas</h2>
             <div class="comida">
                 <div class="comida__imagen">
-                    <img src="img/celeste.jpg" alt="imagen de">
+                    <picture>
+                        <source loading="lazy" srcset="img/star.webp" type="image/webp">
+                        <img loading="lazy" src="img/star.jpg" alt="imagen star">
+                    </picture>
                 </div>
                 <div class="borde">
                     <h3 class="nombre no-margin">Celeste</h3>
@@ -44,7 +50,10 @@
                 </div>
             
                 <div class="comida__imagen">
-                    <img src="img/star.jpg" alt="imagen de">
+                    <picture>
+                        <source loading="lazy" srcset="img/star.webp" type="image/webp">
+                        <img loading="lazy" src="img/star.jpg" alt="imagen star">
+                    </picture>
                 </div>
                 <div class="borde">
                     <h3 class="nombre no-margin">Star</h3>
@@ -61,7 +70,10 @@
 
             <div class="comida">
                 <div class="comida__imagen">
-                    <img src="img/celeste.jpg" alt="imagen de">
+                    <picture>
+                        <source loading="lazy" srcset="img/celeste.webp" type="image/webp">
+                        <img loading="lazy" src="img/celeste.jpg" alt="imagen celeste">
+                    </picture>
                 </div>
                 <div class="borde">
                     <h3 class="nombre no-margin">Nombre burguer</h3>
@@ -75,7 +87,10 @@
                 </div>
             
                 <div class="comida__imagen">
-                    <img src="img/celeste.jpg" alt="imagen de">
+                    <picture>
+                        <source loading="lazy" srcset="img/celeste.webp" type="image/webp">
+                        <img loading="lazy" src="img/celeste.jpg" alt="imagen celeste">
+                    </picture>
                 </div>
                 <div class="borde">
                     <h3 class="nombre no-margin">Nombre burguer</h3>
@@ -91,7 +106,10 @@
 
             <div class="comida">
                 <div class="comida__imagen">
-                    <img src="img/celeste.jpg" alt="imagen de">
+                    <picture>
+                        <source loading="lazy" srcset="img/celeste.webp" type="image/webp">
+                        <img loading="lazy" src="img/celeste.jpg" alt="imagen celeste">
+                    </picture>
                 </div>
                 <div class="borde">
                     <h3 class="nombre no-margin">Nombre burguer</h3>
@@ -104,7 +122,10 @@
                     <li>Orégano</li>
                 </div class="borde">
                 <div class="comida__imagen">
-                    <img src="img/star.jpg" alt="imagen de">
+                    <picture>
+                        <source loading="lazy" srcset="img/star.webp" type="image/webp">
+                        <img loading="lazy" src="img/star.jpg" alt="imagen star">
+                    </picture>
                 </div>
                 <div>
                     <h3 class="nombre no-margin">Nombre burguer</h3>

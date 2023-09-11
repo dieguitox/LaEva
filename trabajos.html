@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carro La Eva y Foodtruck La Ev@lución</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carro La Eva y Foodtruck La Ev@lución</title>
+        <meta name="description" content="Pagina web de La eva">
     
-</head>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="font" crossorigin="crossorigin">    
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    </head>
 <body>
     <Header class="header"> 
         <a href="index.html">
@@ -29,7 +32,10 @@
         <h2 class="titulo no-margin centrar-texto"> Sobre nuestras referencias</h2>
             <div class="contenido">
                 <div class="contenido__imagen" >
-                    <img src="img/Buceo.jpg" alt="imagen del buceo">
+                    <picture>
+                        <source loading="lazy" srcset="img/buceo.webp" type="image/webp">
+                        <img loading="lazy" src="img/Buceo.jpg" alt="imagen Buceo">
+                    </picture>
                 </div>
                 <div class="contenido__lugar">
                     <h2 class="no-margin centrar-texto">Feria del Buceo</h2>
@@ -41,7 +47,10 @@
 
             <div class="contenido">
                 <div class="contenido__imagen" >
-                    <img src="img/trouville.jpg" alt="imagen del trouville">
+                    <picture>
+                        <source loading="lazy" srcset="img/trouville.webp" type="image/webp">
+                        <img loading="lazy" src="img/trouville.jpg" alt="imagen trouville">
+                    </picture>
                 </div>
                 <div class="contenido__lugar">
                     <h2 class="no-margin centrar-texto">Feria de Trouville</h2>

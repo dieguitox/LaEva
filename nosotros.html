@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carro La Eva y Foodtruck La Ev@lución</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carro La Eva y Foodtruck La Ev@lución</title>
+        <meta name="description" content="Pagina web de La eva">
     
-</head>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="font" crossorigin="crossorigin">    
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+    </head>
 <body>
     <Header class="header"> 
         <a href="index.html">
@@ -28,7 +31,10 @@
     <div class="contenedor">
         <h2 class="titulo no-margin"> Nosotros</h2>
         <main class="contenido__principal">
-            <img src="img/nosotros.jpg" >
+            <picture>
+                <source loading="lazy" srcset="img/nosotros.webp" type="image/webp">
+                <img loading="lazy" src="img/nosotros.jpg" alt="imagen nosotros" >
+            </picture>
         <p>
             Somos una empresa que hace años que esta en el rubro de la gastronomia
         </p>

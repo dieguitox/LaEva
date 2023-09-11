@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carro La Eva y Foodtruck La Ev@lución</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Pagina web de La eva">
 
-    
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="font" crossorigin="crossorigin">    
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Pattaya&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <Header class="header"> 
@@ -27,45 +30,45 @@
 
     <div class="contenedor">
         <h1 class="titulo no-margin"> Contacto</h1>
-        <main class="contenido__principal">
-            
-        </main><!--Main-->
+        
+
+        <div class="contacto-bg"></div>
+
+        <section>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+
+                        <div class="campo">
+                            <label>Nombre:</label>
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono:</label>
+                            <input class="input-text" type="tel" placeholder="Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo:</label>
+                            <input class="input-text" type="email" placeholder="Mail">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje:</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> 
+                    <div>
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    <!--Main-->
     </div>
-
-    <section>
-        <form class="formulario">
-            <fieldset>
-                <legend>Contactános llenando todos los campos</legend>
-                <div class="contenedor-campos">
-
-                    <div class="campo">
-                        <label>Nombre:</label>
-                        <input class="input-text" type="text" placeholder="Nombre">
-                    </div>
-
-                    <div class="campo">
-                        <label>Teléfono:</label>
-                        <input class="input-text" type="tel" placeholder="Teléfono">
-                    </div>
-
-                    <div class="campo">
-                        <label>Correo:</label>
-                        <input class="input-text" type="email" placeholder="Mail">
-                    </div>
-
-                    <div class="campo">
-                        <label>Mensaje:</label>
-                        <textarea class="input-text"></textarea>
-                    </div>
-                </div> 
-                <div>
-                    <input class="boton" type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
-
-
 
     <footer class="footer">
         <div>
